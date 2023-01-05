@@ -1,2 +1,4 @@
 rootProject.name = 'SeleniumProject'
+include 'src:test:Selenium0'
+findProject(':src:test:Selenium0')?.name = 'Selenium0'
 
